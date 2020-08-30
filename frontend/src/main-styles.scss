@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700|Nunito:400,700");
 
 $turquoise: #44ddd0;
-$green: #27ad71;
+$green: #2bb979;
 
 $light-green: #45f69a;
 $light: #f8f8f8;
@@ -24,4 +24,12 @@ html {
 html,
 body {
   height: 100%;
+}
+
+.centered-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
 }

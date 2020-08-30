@@ -1,11 +1,11 @@
 @import "../../../main-styles.scss";
-.centered-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-}
+// .centered-content {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   height: 100%;
+//   width: 100%;
+// }
 
 .task-manager-container {
   display: flex;
@@ -34,6 +34,7 @@
   padding: 42px;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
+  position: relative;
 }
 
 .title {
@@ -91,4 +92,15 @@
     text-decoration: line-through;
     opacity: 0.5;
   }
+}
+
+.circle-add-button {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background: $primary;
+  bottom: 35px;
+  right: 35px;
+  border-radius: 50%;
+  // border: none;
 }
